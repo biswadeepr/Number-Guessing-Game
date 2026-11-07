@@ -1,4 +1,4 @@
-Number Guessing Game in C
+Number Guessing Game in C.
 
 An interactive CLI-based number guessing game developed in C. The computer randomly chooses a secret number between 1 and 100, and guides the player to find it using dynamic hints while tracking total attempts.
 
