@@ -21,7 +21,7 @@ do-while loop - Ensures the prompt runs at least once and continues until you gu
 
 attempts++ - Adds 1 to your attempt count after every guess.
 
-if-else if-else - Compares user guess with the computer's secret number to give hints.
+if-else - Compares user guess with the computer's secret number to give hints.
 
 How to Compile & Run
 
