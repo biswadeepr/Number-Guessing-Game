@@ -8,7 +8,9 @@ int main() {
     // Here, I have given function to generate a random number from 1 to 100
     computer = (rand() % 100) + 1;
 
+    printf("----------------------------- \n");
     printf("NUMBER GUESSING GAME\n");
+    printf("----------------------------- \n");
     printf("\nI'm thinking of a number between 1 and 100\n");
 
     // Game loop
@@ -17,14 +19,19 @@ int main() {
         scanf("%d", &guess);
         attempts ++;
 
-        if (guess > computer) {
+        if (guess > computer)
+        {
        printf("Try a lower number!\n");
-        } else if (guess < computer) {
+        }
+        else if (guess < computer) 
+        {
             printf("Try a higher number!\n");
-        } else {
+        } else 
+        {
         printf("Well Played! You did it in %d attempts!\n", attempts);
         }
-    } while (guess = computer);
+    }
+        while (guess = computer);
 
     return 0;
 }
